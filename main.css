@@ -1,9 +1,13 @@
 html,body { 
-	height:100%;
-	margin:0px;
-	padding:0px
+  height:100%;
+  margin:0px;
+  padding:0px
 }
-#video {
-	height:100%;
-	width:100%
+.video {
+  position: relative;
+  top: 0;
+  left: 0;
+  height:100%;
+  width:100%;
+  z-index: -100;
 }
